@@ -1779,7 +1779,7 @@ def log_in(env=".env", wait=1.2):
         auth_token_cookie = {
             "name": "auth_token",
             "value": email,
-            "domain": ".twitter.com",
+            "domain": ".x.com",
             "secure": True,
             "httpOnly": True
         }
